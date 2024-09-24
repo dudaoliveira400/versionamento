@@ -19,7 +19,7 @@ section {
     transition: background-color 0.5s;
 }
 
-/* Dark Mode Styles */
+
 body.dark-mode {
     background-color: #333;
     color: white;
@@ -33,7 +33,7 @@ body.dark-mode header, body.dark-mode footer {
     color: #ddd;
 }
 
-/* Styles for Info Box */
+
 .info-box {
     border: 2px solid #333;
     border-radius: 10px;
