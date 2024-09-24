@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verificador de idade</title>
+    <title>Verificador de Idade</title>
     <link rel="stylesheet" href="atividade02.css">
-    <link rel="stylesheet" href="atividade02.js">
 </head>
 <body>
     <header>
-        <h1>Verificador de idade</h1>
+        <h1>Verificador de Idade</h1>
     </header>
     <section>
         <p>Ano de nascimento:</p>
-        <input type="number" id="txtano" name="txtano" min="0" >
-    <p>Sexo:</p>
-        <input type="radio" name="radsex" id="radsex" checked>
+        <input type="number" id="txtano" name="txtano" min="0">
+        <p>Mês de nascimento:</p>
+        <input type="number" id="txtmes" name="txtmes" min="1" max="12">
+        <p>Dia de nascimento:</p>
+        <input type="number" id="txtdia" name="txtdia" min="1" max="31">
+        <p>Sexo:</p>
+        <input type="radio" name="radsex" id="masc" checked>
         <label for="masc">Masculino</label>
-        <input type="radio" name="radsex" id="radsex">
+        <input type="radio" name="radsex" id="fem">
         <label for="fem">Feminino</label>
-    <p>
-        <input id="veri" type="button" value="verificar" onclick="Verificar()">
-    </p>
-     </div>
-     <div id="res">
-    </div>
-</section>
-<footer>
-
-</footer>
+        <p>
+            <input id="veri" type="button" value="Verificar" onclick="Verificar()">
+        </p>
+        <div id="res"></div>
+        <div id="contagem"></div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Verificador de Idade</p>
+    </footer>
+    <script src="atividade02.js"></script>
 </body>
 </html>
